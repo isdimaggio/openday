@@ -1,0 +1,105 @@
+/*
+Autore:       Vittorio Lo Mele
+Data:         15-12-2020
+Descrizione:  Css principale
+*/
+
+body {
+  padding-top: 3.5rem;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+  body::-webkit-scrollbar {
+    width: 0.50rem;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #1e1e24;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #0275d8;
+  }
+  
+  body::-moz-scrollbar {
+    width: 0.50rem;
+  }
+  
+  body::-moz-scrollbar-track {
+    background: #1e1e24;
+  }
+  
+  body::-moz-scrollbar-thumb {
+    background: #0275d8;
+  }
+  
+  .jumbotron-pagmat{
+    padding: 35px !important;
+  }
+
+  .desktopbig{
+    font-size: 4.5rem;
+  }
+
+  .spazio{
+    height: 4rem;
+  }
+}
+
+@media(max-width: 767px){
+  .h1jumbo{
+    font-size: 2rem;
+  }
+
+  .hidemob{
+    display: none;
+  }
+}
+
+.centro{
+  text-align: center;
+}
+
+.immagine{
+  background-image: url("assets/img/bg1.png");
+}
+
+.bianco{
+  color: #FFF;
+}
+
+.jumbotron-inf{
+  background-color: #0275d8;
+}
+
+.galleria .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.galleria h2 {
+  font-weight: 400;
+}
+.galleria .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.divisore {
+  margin: 5rem 0;
+}
+
+.featurette-titolo {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.featurettehomeicon{
+  height: 200px;
+  width: auto;
+}
+
