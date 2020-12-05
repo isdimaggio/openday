@@ -76,6 +76,10 @@ body {
   background-color: #0275d8;
 }
 
+.jumbotron-eco{
+  background-color: #28a745;
+}
+
 .galleria .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
