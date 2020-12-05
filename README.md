@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # Open Day 2020-2021 IT 'Luigi Di Maggio'
-## Sito statico per l'orientamento ed open day
+## Sito statico per l'orientamento ed open day dell'istituto IT Luigi Di Maggio di San Giovanni Rotondo
 
 **Sito realizzato da:**
 - Vittorio Lo Mele (Classe 2Ci)
@@ -27,5 +26,3 @@
 - [Marzipano](https://github.com/google/marzipano)
 
 [!] Il codice per il tour (Marzipano) non è incluso siccome è praticamente identico alla repo originale tranne per le modifiche interne ed il `data.js`
-=======
->>>>>>> 60faee88f45740959af6f9b2c0ec77d8017c668c
