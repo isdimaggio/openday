@@ -80,6 +80,10 @@ body {
   background-color: #28a745;
 }
 
+.jumbotron-bio{
+  background-color: #dc3545;
+}
+
 .galleria .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
