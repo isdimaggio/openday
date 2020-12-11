@@ -92,6 +92,10 @@ body {
   background-color: #FFC107;
 }
 
+.jumbotron-isc{
+  background-color: #1b16a8;
+}
+
 .galleria .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
