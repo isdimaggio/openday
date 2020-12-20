@@ -622,7 +622,7 @@ var APP_DATA = {
     },
     {
       "id": "14-lab-disegno-cad",
-      "name": "Lab. Disegno CAD",
+      "name": "Lab. T.T.R.G.",
       "levels": [
         {
           "tileSize": 256,
@@ -667,7 +667,7 @@ var APP_DATA = {
     },
     {
       "id": "15-lab-lingue",
-      "name": "Lab. Lingue",
+      "name": "Lab. di Lingue e Tecnologie Informatiche",
       "levels": [
         {
           "tileSize": 256,
