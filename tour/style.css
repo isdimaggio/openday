@@ -145,6 +145,56 @@ body.fullscreen-enabled #fullscreenToggle {
   display: none;
 }
 
+#goBackToggle {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  background-color: rgb(38, 96, 255);
+  background-color: rgba(38, 96, 255,0.8);
+}
+
+.mobile #goBackToggle {
+  width: 50px;
+  height: 50px;
+}
+
+body.fullscreen-enabled #goBackToggle {
+  display: block;
+}
+
+#goBackToggle .icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.mobile #goBackToggle .icon {
+  top: 10px;
+  right: 10px;
+}
+
+#goBackToggle .icon.on {
+  display: none;
+}
+
+#goBackToggle .icon.off {
+  display: block;
+}
+
+#goBackToggle.enabled .icon.on {
+  display: block;
+}
+
+#goBackToggle.enabled .icon.off {
+  display: none;
+}
+
 #autorotateToggle {
   display: block;
   position: absolute;
