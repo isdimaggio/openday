@@ -14,6 +14,7 @@ Descrizione:  Pagina informatica
   <title>Open Day ISIS Di Maggio</title>
   <link rel="icon" href="../favicon.ico">
   <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/css/video-js.css" rel="stylesheet">
   <link href="../index.css" rel="stylesheet">
 </head>
 
@@ -36,20 +37,26 @@ Descrizione:  Pagina informatica
       <br>
       <p><a class="btn btn-outline-light btn-lg" href="http://example.com" role="button">Live Streaming
           &raquo;</a></p>
-      <p class="bianco">Entra nella Live Stream per scoprire di più... in diretta! <br> Disponibile solo i giorni X all'ora X
+      <p class="bianco">Entra nella Live Stream per scoprire di più... in diretta! <br> Disponibile solo i giorni X
+        all'ora X
       </p>
     </div>
   </div>
 
-  <div class="container galleria" id="galleria">
+  <div class="container">
 
-    <div class="row justify-content-md-center">
-      <div class="col-md-9">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-      </div>
-    </div>
+
+        <video id="presentazioneinformatica" class="video-js vjs-default-skin vjs-16-9" controls
+          poster="../assets/vid/informatica/POSTER.jpg" data-setup='{"fluid": true}'>
+          <source src="../assets/vid/informatica/DELIVERY.mp4" type="video/mp4" />
+          <source src="../assets/vid/informatica/DELIVERY.webm" type="video/webm" />
+          <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a
+            web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+          </p>
+        </video>
+
 
     <hr class="divisore">
 
@@ -101,9 +108,10 @@ Descrizione:  Pagina informatica
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"></script>
+      <script src="../assets/js/video.min.js"></script>
     <script src="../assets/js/jquery.fitvids.js"></script>
     <script>
-      $('#galleria').fitVids();
+      //$('.vidcontainer').fitVids();
     </script>
     <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>

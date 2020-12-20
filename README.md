@@ -22,7 +22,6 @@
 - [BootstrapCSS 4.5](https://github.com/twbs/bootstrap)
 - [BootstrapJS](https://github.com/twbs/bootstrap)
 - [FidVids.js](https://github.com/davatron5000/FitVids.js)
+- [Video.js](https://github.com/videojs/video.js)
 - [Lightbox](https://github.com/lokesh/lightbox2)
 - [Marzipano](https://github.com/google/marzipano)
-
-[!] Il codice per il tour (Marzipano) non è incluso siccome è praticamente identico alla repo originale tranne per le modifiche interne ed il `data.js`
