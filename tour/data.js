@@ -541,7 +541,7 @@ var APP_DATA = {
     },
     {
       "id": "12-lab-elettrotecnica-1",
-      "name": "Lab. Elettrotecnica #1",
+      "name": "Lab. Elettronica ed Elettrotecnica",
       "levels": [
         {
           "tileSize": 256,
@@ -585,14 +585,14 @@ var APP_DATA = {
         {
           "yaw": -2.503138203240912,
           "pitch": -0.03870167232765098,
-          "title": "Laboratorio di Elettrotecnica",
-          "text": "Il Laboratorio di Elettrotecnica è utilizzato dagli studenti del triennio di Elettronica ed Elettrotecnica, per svolgere attività di Domotica, oltre che per apprendere le conoscenze tecniche fondamentali utili alla realizzazione di impianti ad energia rinnovabile con pannelli fotovoltaici e/o pale eoliche."
+          "title": "Lab. Elettronica ed Elettrotecnica",
+          "text": "Il Laboratorio di Elettrotecnica è utilizzato dagli studenti del triennio di Elettronica ed Elettrotecnica per apprendere le conoscenze tecniche fondamentali utili alla realizzazione di impianti ad energia rinnovabile con pannelli fotovoltaici e/o pale eoliche."
         }
       ]
     },
     {
       "id": "13-lab-elettrotecnica-2",
-      "name": "Lab. Elettrotecnica #2",
+      "name": "Lab. Sistemi Automatici T.P.S.E.",
       "levels": [
         {
           "tileSize": 256,
@@ -636,8 +636,8 @@ var APP_DATA = {
         {
           "yaw": 2.081049503399389,
           "pitch": 0.2470694107495497,
-          "title": "Laboratorio di Elettrotecnica #2",
-          "text": "Il Laboratorio di Elettrotecnica è utilizzato dagli studenti del triennio di Elettronica ed Elettrotecnica, per mettere in pratica quanto studiato su come progettare, realizzare e gestire sistemi elettronici ed impianti, sia civili che industriali."
+          "title": "Lab. Sistemi Automatici T.P.S.E.",
+          "text": "Il Laboratorio di Elettrotecnica è utilizzato dagli studenti del triennio di Elettronica ed Elettrotecnica, per svolgere attività di Domotica e per mettere in pratica quanto studiato su come progettare, realizzare e gestire sistemi elettronici ed impianti civili."
         }
       ]
     },
