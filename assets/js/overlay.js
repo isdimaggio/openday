@@ -1,9 +1,10 @@
 function overlayOn(){
-    document.getElementById("overlayMain").style.display = "block";
+    $("#overlayMain").css("display", "block");
 }
 
 function overlayOff(){
-    document.getElementById("overlayMain").style.display = "none";
+    $("#overlayMain").css("display", "none")
+    $("#presentazioneinformatica")[0].player.pause();
 }
 
 overlayOff();
