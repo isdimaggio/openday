@@ -14,6 +14,7 @@ Descrizione:  Pagina elettrotecnica
     <title>Open Day ISIS Di Maggio</title>
     <link rel="icon" href="../favicon.ico">
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/video-js.css" rel="stylesheet">
     <link href="../index.css" rel="stylesheet">
 </head>
 
@@ -29,77 +30,76 @@ Descrizione:  Pagina elettrotecnica
     </nav>
 
     <div class="jumbotron jumbotron-ele jumbotron-pagmat">
-        <div class="container centro">
-            <div><h1 class="display-4 nero desktopbig">Elettronica ed Elettrotecnica</h1></div>
-            <br>
-            <p><a class="btn btn-outline-dark btn-lg" href="http://example.com" role="button">Contatta il relatore &raquo;</a></p>
-            <p class="nero">Entra nella stanza webex per parlare con un relatore. <br> Disponibile solo i giorni X all'ora X</p>
+      <div class="container centro">
+        <div>
+          <h1 class="display-4 bianco desktopbig">Elettronica ed Elettrotecnica</h1>
         </div>
-    </div>
-
-    <div class="spazio"></div>
-
-    <div class="container galleria" id="galleria">
-        
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-titolo">Titolo card <span class="text-muted"> di due colori</span></h2>
-            <p class="lead">Cose varie. Si possono mettere sia immagini che video. Testo di prova, testo, cose varie. Dovrei installare la libreria lightbox per zoomare sulle foto!</p>
-            <a class="btn btn-warning" href="#">Pulsante di esempio</a>
-          </div>
-          <div class="col-md-5">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-    
-        <hr class="divisore">
-    
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-titolo">Titolo card <span class="text-muted"> di due colori</span></h2>
-            <p class="lead">Cose varie. Si possono mettere sia immagini che video. Testo di prova, testo, cose varie. Dovrei installare la libreria lightbox per zoomare sulle foto!</p>
-          </div>
-            <div class="col-md-5 order-md-1">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-    
-        <hr class="divisore">
-    
-        <div class="spazio"></div>
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-titolo">Titolo card <span class="text-muted"> di due colori</span></h2>
-            <p class="lead">Cose varie. Si possono mettere sia immagini che video. Testo di prova, testo, cose varie. Dovrei installare la libreria lightbox per zoomare sulle foto!</p>
-          </div>
-          <div class="col-md-5">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-    
-        <hr class="divisore">
-    
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-titolo">Titolo card <span class="text-muted"> di due colori</span></h2>
-            <p class="lead">Cose varie. Si possono mettere sia immagini che video. Testo di prova, testo, cose varie. Dovrei installare la libreria lightbox per zoomare sulle foto!</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-    
+        <br>
+        <p><a class="btn btn-outline-light btn-lg" href="http://example.com" role="button">Live Streaming
+            &raquo;</a></p>
+        <p class="bianco">Entra nella Live Stream per scoprire di più... in diretta! <br> Disponibile solo i giorni X
+          all'ora X
+        </p>
       </div>
-
-      <div class="spazio"></div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    </div>
+  
+    <div class="container">
+          <video id="presentazioneinformatica" class="video-js vjs-default-skin vjs-16-9" controls
+            poster="../assets/vid/elettrotecnica/POSTER.jpg" data-setup='{"fluid": true}'>
+            <source src="../assets/vid/elettrotecnica/DELIVERY.mp4" type="video/mp4" />
+            <source src="../assets/vid/elettrotecnica/DELIVERY.webm" type="video/webm" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider upgrading to a
+              web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+            </p>
+          </video>
+  
+  
+      <hr class="divisore">
+  
+      <div class="row justify-content-md-center">
+        <div class="col-md-auto">
+          <h2 class="featurette-titolo">Il Diplomato in <span class="text-muted">Elettrotecnica:</span></h2>
+          <ul>
+            <li>ha competenze specifiche nel campo dei materiali e delle tecnologie costruttive dei sistemi elettrici, elettronici e delle macchine elettriche, della generazione, elaborazione e trasmissione dei segnali elettrici ed elettronici, dei sistemi per la generazione, conversione e trasporto dell’energia elettrica e dei relativi impianti di distribuzione;</li>
+            <li>nei contesti produttivi d’interesse, collabora nella progettazione, costruzione e collaudo di sistemi elettrici ed elettronici, di impianti elettrici e sistemi di automazione.</li>
+            </ul>
+            <p>E’ in grado di:</p>
+            <ul>
+            <li>operare nell’organizzazione dei servizi e nell’esercizio di sistemi elettrici ed elettronici complessi;</li>
+            <li>sviluppare e utilizzare sistemi di acquisizione dati, dispositivi, circuiti, apparecchi e apparati elettronici;</li>
+            <li>utilizzare le tecniche di controllo e interfaccia mediante software dedicato; integrare conoscenze di elettrotecnica, di elettronica e di informatica per intervenire nell’automazione industriale e nel controllo dei processi produttivi, rispetto ai quali è in grado di contribuire all’innovazione e all’adeguamento tecnologico delle imprese relativamente alle tipologie di produzione;</li>
+            <li>intervenire nei processi di conversione dell’energia elettrica, anche di fonti alternative, e del loro controllo, per ottimizzare il consumo energetico e adeguare gli impianti e i dispositivi alle normative sulla sicurezza;<br>
+            nell’ambito delle normative vigenti, collaborare al mantenimento della sicurezza sul lavoro e nella tutela ambientale, contribuendo al miglioramento della qualità dei prodotti e dell’organizzazione produttiva delle aziende.</li>
+            </ul>
+            <p>In particolare, sempre con riferimento a specifici settori di impiego e nel rispetto delle relative normative tecniche, viene approfondita nell’articolazione “Elettrotecnica” la progettazione, realizzazione e gestione di impianti elettrici civili e industriali.</p>
+            <p>A conclusione del percorso quinquennale, il diplomato nell’indirizzo Elettrotecnica consegue i risultati di apprendimento di seguito specificati in termini di competenze:</p>
+            <ol>
+            <li>Applicare nello studio e nella progettazione di impianti e di apparecchiature elettriche ed elettroniche i procedimenti dell’elettrotecnica e dell’elettronica.</li>
+            <li>Utilizzare la strumentazione di laboratorio e di settore e applicare i metodi di misura per effettuare verifiche, controlli e collaudi.</li>
+            <li>Analizzare tipologie e caratteristiche tecniche delle macchine elettriche e delle apparecchiature elettroniche, con riferimento ai criteri di scelta per la loro utilizzazione e interfacciamento.</li>
+            <li>Gestire progetti.</li>
+            <li>Gestire processi produttivi correlati a funzioni aziendali.</li>
+            <li>Utilizzare linguaggi di programmazione, di diversi livelli, riferiti ad ambiti specifici di applicazione.</li>
+            <li>Analizzare il funzionamento, progettare e implementare sistemi automatici.</li>
+        </div>
+      </div>
+  
+      <hr class="divisore">
+  
+      <footer class="container">
+        <p>Sito per l' Open Day (A.S. 2021-2022) - IT "Luigi Di Maggio", &copy; <a
+                href="https://mrbackslash.it">mrbackslash.it</a> 2020-2021. Realizzato da Vittorio Lo Mele (2Ci),
+            Alessio Cusenza (4Bi)</p>
+        <p>Dai un'occhiata al codice su <a href="https://github.com/mrBackSlash-it/openday-dmg">GitHub</a></p>
+    </footer>
+  
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
-        <script src="../assets/js/jquery.fitvids.js"></script>
-        <script>
-            $('#galleria').fitVids();
-        </script>
-    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-</body>
+        <script src="../assets/js/video.min.js"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+  </html>
