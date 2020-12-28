@@ -85,7 +85,7 @@ var APP_DATA = {
           "yaw": 0.3203570437345977,
           "pitch": -0.006894116899500702,
           "title": "Hall",
-          "text": "La hall dell’IT “L. Di Maggio” rappresenta il luogo di accoglienza per docenti, alunni e genitori. E’ da qui che prendono avvio i percorsi che conducono agli ambienti didattici dei diversi indirizzi di studio."
+          "text": "La hall dell’IT “L. Di Maggio” rappresenta il luogo di accoglienza per docenti, alunni e genitori. Partendo da qui si possono raggiungere e visitare tutti gli ambienti didattici dei diversi indirizzi di studio."
         }
       ]
     },
@@ -265,7 +265,7 @@ var APP_DATA = {
           "yaw": -0.23844009391408072,
           "pitch": -0.02271378406950575,
           "title": "Laboratorio di Informatica",
-          "text": "Il Laboratorio d’Informatica, dotato di postazioni multimediali collegate in rete tramite fibra, è uno degli ambienti didattici utilizzati dagli alunni che frequentano l’indirizzo di Informatica e Telecomunicazioni. Gli studenti qui potranno mettere in pratica quanto appreso durante l’attività svolta in aula, esercitandosi nell’utilizzo degli specifici linguaggi di programmazione che consentono loro di creare programmi, applicazioni, app per smartphone e programmazione per il mondo web."
+          "text": "Il Laboratorio d’Informatica, dotato di postazioni multimediali collegate in rete tramite fibra, è uno degli ambienti didattici utilizzati dagli alunni che frequentano l’indirizzo di Informatica e Telecomunicazioni. Gli studenti qui potranno mettere in pratica quanto appreso durante l’attività svolta in aula, esercitandosi nell’utilizzo degli specifici linguaggi di programmazione che consentono loro di creare programmi, applicazioni ed app sia per smartphone che per il mondo web."
         }
       ]
     },
@@ -310,7 +310,7 @@ var APP_DATA = {
           "yaw": -0.23736902482881206,
           "pitch": 0.039276412624804635,
           "title": "Laboratorio di Sistemi e Reti",
-          "text": "Il laboratorio di Sistemi e Reti, dotato di postazioni multimediali collegate in rete tramite fibra, è un altro degli ambienti didattici utilizzati dagli alunni che frequentano il triennio dell’indirizzo informatico. Viene utilizzato per mettere in pratica le principali nozioni teoriche sullo studio dei sistemi digitali, e su come poter realizzare una rete informatica domestica o aziendale. Inoltre vengono illustrati i microcontrollori (Arduino) e single-board computer (Raspberry), i loro sensori, con applicazioni pratiche nel mondo della robotica."
+          "text": "Il Laboratorio di Sistemi e Reti, dotato di postazioni multimediali collegate in rete tramite fibra, è un altro degli ambienti didattici riservato agli alunni che frequentano il triennio dell’indirizzo informatico. Viene utilizzato per mettere in pratica le principali nozioni teoriche sullo studio dei sistemi digitali e su come poter realizzare una rete informatica domestica o aziendale. Inoltre, vengono illustrati i microcontrollori (Arduino e Raspberry)ed i loro sensori, con applicazioni pratiche nel mondo della robotica."
         }
       ]
     },
@@ -400,7 +400,7 @@ var APP_DATA = {
           "yaw": -1.663579284430611,
           "pitch": -0.07274514758769612,
           "title": "Lab. Chimica Analitica",
-          "text": "Il Laboratorio di Chimica Analitica è utilizzato, oltre che dagli alunni del biennio, anche da quelli che frequentano il triennio di Biotecnologie Sanitarie, per eseguire analisi chimiche finalizzate a studiare la composizione della materia, sia da un punto di vista qualitativo che quantitativo."
+          "text": "Il Laboratorio di Chimica Analitica è utilizzato, oltre che dagli alunni del biennio anche da quelli che frequentano il triennio di Biotecnologie Sanitarie, per eseguire analisi chimiche finalizzate a studiare la composizione della materia, sia da un punto di vista qualitativo che quantitativo."
         }
       ]
     },
@@ -637,7 +637,7 @@ var APP_DATA = {
           "yaw": 2.081049503399389,
           "pitch": 0.2470694107495497,
           "title": "Lab. Sistemi Automatici T.P.S.E.",
-          "text": "Il Laboratorio di Elettrotecnica è utilizzato dagli studenti del triennio di Elettronica ed Elettrotecnica, per svolgere attività di Domotica e per mettere in pratica quanto studiato su come progettare, realizzare e gestire sistemi elettronici ed impianti civili."
+          "text": "Il Laboratorio di Sistemi Automatici e T.P.S.E. è utilizzato dagli studenti del triennio di Elettronica ed Elettrotecnica, per svolgere attività di domotica e mettere in pratica quanto studiato su come progettare, realizzare e gestire sistemi elettronici ed impianti civili."
         }
       ]
     },
@@ -772,7 +772,7 @@ var APP_DATA = {
           "yaw": -0.009945717123452269,
           "pitch": -0.1454865383595152,
           "title": "Palestra Grande",
-          "text": "La Palestra dell’I.T. “L. Di Maggio” è una delle strutture scolastiche più grandi ed attrezzate di tutta la regione. Dotata di doppie tribune e pavimento in parquet, è ideale per permettere, non solo ai nostri alunni ma anche alle diverse associazioni presenti sul territorio, di svolgere molteplici attività e gare sportive, sia a livello dilettantistico che professionistico."
+          "text": "La Palestra dell’I.T. “L. Di Maggio” è una delle strutture scolastiche più grandi ed attrezzate di tutta la regione. Dotata di doppie tribune e pavimento in parquet, consente, non solo ai nostri alunni ma anche alle diverse associazioni presenti sul territorio, di svolgere molteplici attività e gare sportive, sia a livello dilettantistico che agonistico."
         }
       ]
     },
@@ -893,7 +893,7 @@ var APP_DATA = {
           "yaw": 0.25573111155751604,
           "pitch": -0.00431648417003494,
           "title": "ITE - Lab. Economia Aziendale",
-          "text": "Il Laboratorio di Economia Aziendale è dotato di LIM oltre che di postazioni multimediali collegate in rete tramite fibra. Qui gli studenti dei diversi indirizzi di studio possono mettere in pratica quanto appreso durante l’attività svolta in aula, esercitandosi nell’utilizzo di programmi specifici per la gestione economica ed aziendale."
+          "text": "Il Laboratorio di Economia Aziendale è dotato di LIM e di postazioni multimediali collegate in rete tramite fibra. Qui gli studenti dei diversi indirizzi di studio possono mettere in pratica quanto appreso durante l’attività svolta in aula, esercitandosi nell’utilizzo di programmi specifici per la gestione economica ed aziendale."
         }
       ]
     }
