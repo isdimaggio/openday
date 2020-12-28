@@ -22,19 +22,21 @@ Descrizione:  Pagina principale con selezione indirizzi
 <body>
     <div class="overlay-vid" id="overlayMain">
         <div class="wrapper">
-            <video id="presentazioneinformatica" class="video-js vjs-default-skin vjs-16-9" controls width="640" height="360"
-          poster="../assets/vid/orientamento/POSTER.png" data-setup='{"fluid": true}'>
-          <source src="../assets/vid/orientamento/DELIVERY.mp4" type="video/mp4" />
-          <source src="../assets/vid/orientamento/DELIVERY.webm" type="video/webm" />
-          <p class="vjs-no-js">
-            To view this video please enable JavaScript, and consider upgrading to a
-            web browser that
-            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-          </p>
-        </video>
-            <div class="close" onclick="overlayOff()"><p>Chiudi</p></div>
+            <video id="presentazioneinformatica" class="video-js vjs-default-skin vjs-16-9" controls width="640"
+                height="360" poster="../assets/vid/orientamento/POSTER.png" data-setup='{"fluid": true}'>
+                <source src="../assets/vid/orientamento/DELIVERY.mp4" type="video/mp4" />
+                <source src="../assets/vid/orientamento/DELIVERY.webm" type="video/webm" />
+                <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a
+                    web browser that
+                    <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                </p>
+            </video>
+            <div class="close" onclick="overlayOff()">
+                <p>Chiudi</p>
+            </div>
         </div>
-      </div>
+    </div>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="#">Open Day (Sito Incompleto) [PUBLIC BETA]</a>
@@ -77,13 +79,16 @@ Descrizione:  Pagina principale con selezione indirizzi
             <div class="container">
                 <div class="row justify-content-md-center">
                     <div class="col-md-auto">
-                        <p><a class="btn btn-lg btn-outline-light" href="assets/img/locandina.jpeg" data-lightbox="locandina-1" data-title="Locandina">Locandina</a></p>
+                        <p><a class="btn btn-lg btn-outline-light" href="assets/img/locandina.jpeg"
+                                data-lightbox="locandina-1" data-title="Locandina">Locandina</a></p>
                     </div>
                     <div class="col-md-auto">
-                        <p><a class="btn btn-lg btn-outline-light" href="#" onclick="overlayOn()">Video di Presentazione</a></p>
+                        <p><a class="btn btn-lg btn-outline-light" href="#" onclick="overlayOn()">Video di
+                                Presentazione</a></p>
                     </div>
                     <div class="col-md-auto">
-                        <p><a class="btn btn-lg btn-outline-light" href="assets/depliant.pdf" target="_blank">Depliant</a></p>
+                        <p><a class="btn btn-lg btn-outline-light" href="assets/depliant.pdf"
+                                target="_blank">Depliant</a></p>
                     </div>
                 </div>
             </div>
@@ -149,18 +154,20 @@ Descrizione:  Pagina principale con selezione indirizzi
             <div class="row featurette">
                 <div class="col-md-9 order-md-2">
                     <h2 class="featurette-titolo">Economico <span class="text-muted">Aziendale</span></h2>
-                    <p class="lead">Questo settore si suddivide in 3 indirizzi: amministrazione finanza e marketing,
-                        sistemi informativi aziendali, relazioni internazionali per il marketing. Il Diplomato in
-                        Amministrazione, Finanza e Marketing ha competenze nel campo dei macrofenomeni economici
-                        nazionali ed internazionali, dei sistemi e processi aziendali (organizzazione, pianificazione,
-                        programmazione, amministrazione, finanza e controllo), degli strumenti di marketing, dei
-                        prodotti assicurativo-finanziari e dell’economia sociale. Sistemi informativi aziendali invece
-                        si caratterizza per il riferimento all’ambito della gestione del sistema informativo e alla
+                    <p class="lead">In questo settore il nostro Istituto ha attivo l’indirizzo Amministrazione Finanza e
+                        Marketing con 3 sue articolazioni: amministrazione finanza e marketing, sistemi informativi
+                        aziendali, relazioni internazionali per il marketing. Il Diplomato in “Amministrazione, finanza
+                        e marketing” ha competenze nel campo dei macrofenomeni economici nazionali ed internazionali,
+                        dei sistemi e processi aziendali (organizzazione, pianificazione, programmazione,
+                        amministrazione, finanza e controllo), degli strumenti di marketing, dei prodotti
+                        assicurativo-finanziari e dell’economia sociale. “Sistemi informativi aziendali” invece si
+                        caratterizza per il riferimento all’ambito della gestione del sistema informativo e alla
                         valutazione, scelta e adattamento di software applicativi necessari alla corretta gestione
                         dell’azienda. Infine, “Relazioni internazionali per il marketing” si caratterizza per il
                         riferimento all’ambito della comunicazione aziendale sfruttando tre lingue straniere e
                         appropriati strumenti tecnologici, oltre che alla collaborazione nella gestione dei rapporti
-                        aziendali nazionali e internazionali.</p>
+                        aziendali nazionali e internazionali.
+                    </p>
                     <a class="btn btn-success" href="amaduzzi/">Scopri di più &raquo;</a>
                 </div>
                 <div class="col-md-3 hidemob order-md-1">
@@ -183,4 +190,5 @@ Descrizione:  Pagina principale con selezione indirizzi
     <script src="assets/js/video.min.js"></script>
     <script src="assets/js/overlay.js"></script>
     <link href="assets/css/lightbox.min.css" rel="stylesheet" />
+
 </html>
