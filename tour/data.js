@@ -310,7 +310,7 @@ var APP_DATA = {
           "yaw": -0.23736902482881206,
           "pitch": 0.039276412624804635,
           "title": "Laboratorio di Sistemi e Reti",
-          "text": "Il Laboratorio di Sistemi e Reti, dotato di postazioni multimediali collegate in rete tramite fibra, è un altro degli ambienti didattici riservato agli alunni che frequentano il triennio dell’indirizzo informatico. Viene utilizzato per mettere in pratica le principali nozioni teoriche sullo studio dei sistemi digitali e su come poter realizzare una rete informatica domestica o aziendale. Inoltre, vengono illustrati i microcontrollori (Arduino e Raspberry)ed i loro sensori, con applicazioni pratiche nel mondo della robotica."
+          "text": "Il Laboratorio di Sistemi e Reti, dotato di postazioni multimediali collegate in rete tramite fibra, è un altro degli ambienti didattici riservato agli alunni che frequentano il triennio dell’indirizzo informatico. Viene utilizzato per mettere in pratica le principali nozioni teoriche sullo studio dei sistemi digitali e su come poter realizzare una rete informatica domestica o aziendale. Inoltre, vengono illustrati i microcontrollori (Arduino e Raspberry) ed i loro sensori, con applicazioni pratiche nel mondo della robotica."
         }
       ]
     },
@@ -490,7 +490,7 @@ var APP_DATA = {
           "yaw": -0.13985405126198813,
           "pitch": -0.2618903052265029,
           "title": "Laboratorio di Anatomia",
-          "text": "Il Laboratorio di Anatomia, la cui frequenza è riservata agli studenti del triennio di Biotecnologie Sanitarie, accoglie modelli di strutture del corpo umano e strumenti che servono per approfondire lo studio di organi, apparati e tessuti. Tra le esercitazioni pratiche che si svolgono in questo ambiente didattico, ci sono anche le sezioni di organi animali (occhio, cuore, cervello) utili ad approfondire la conoscenza della strutture anatomiche."
+          "text": "Il Laboratorio di Anatomia, la cui frequenza è riservata agli studenti del triennio di Biotecnologie Sanitarie, accoglie modelli di strutture del corpo umano e strumenti che servono per approfondire lo studio di organi, apparati e tessuti. Tra le esercitazioni pratiche che si svolgono in questo ambiente didattico, ci sono anche le sezioni di organi animali (occhio, cuore, cervello) utili ad approfondire la conoscenza delle strutture anatomiche."
         }
       ]
     },
