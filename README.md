@@ -1,4 +1,4 @@
-# Open Day 2020-2021 IT 'Luigi Di Maggio'
+# Open Day 2021-2022 IT 'Luigi Di Maggio'
 ### Sito statico per l'orientamento ed open day dell'istituto IT Luigi Di Maggio di San Giovanni Rotondo
 
 **Sito realizzato da:**
