@@ -15,10 +15,12 @@ function overlayOff2(){
 }
 
 function overlayOn1(){
+    $(".info-hotspot-modal").removeClass("visible");
     $("#overlay1").css("display", "block");
 }
 
 function overlayOn2(){
+    $(".info-hotspot-modal").removeClass("visible");
     $("#overlay2").css("display", "block");
 }
 

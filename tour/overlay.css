@@ -15,7 +15,7 @@ Descrizione:  Css overlay video
     right: 0;
     bottom: 0;
     background-color: rgba(0,0,0,0.5);
-    z-index: 2;
+    z-index: 8;
     display: flex;
     justify-content: center;
     padding: 2rem;
@@ -40,7 +40,7 @@ Descrizione:  Css overlay video
   background-color: rgba(221, 221, 221, 0.7);
   width: 70px;
   padding: 10px 0;
-  z-index: 7;
+  z-index: 9;
 }
 
 .close p{
