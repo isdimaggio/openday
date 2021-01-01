@@ -266,6 +266,12 @@ var APP_DATA = {
           "pitch": -0.02271378406950575,
           "title": "Laboratorio di Informatica",
           "text": "Il Laboratorio d’Informatica, dotato di postazioni multimediali collegate in rete tramite fibra, è uno degli ambienti didattici utilizzati dagli alunni che frequentano l’indirizzo di Informatica e Telecomunicazioni. Gli studenti qui potranno mettere in pratica quanto appreso durante l’attività svolta in aula, esercitandosi nell’utilizzo degli specifici linguaggi di programmazione che consentono loro di creare programmi, applicazioni ed app sia per smartphone che per il mondo web."
+        },
+        {
+          "yaw": -0.9094900709347726,
+          "pitch": -0.2010730100732374,
+          "title": "Guarda il video",
+          "text": "<button onclick='overlayOn1();'>Apri il player</button>"
         }
       ]
     },
@@ -446,6 +452,12 @@ var APP_DATA = {
           "pitch": 0.32749003307925406,
           "title": "Lab. di Biologia e Microbiologia",
           "text": "Nel Laboratorio di Biologia e Microbiologia, utilizzato dagli studenti del triennio di Biotecnologie Sanitarie, vengono condotti esperimenti per approfondire la struttura, le attività e i ruoli in natura di microrganismi quali: batteri, funghi, alghe e virus."
+        },
+        {
+          "yaw": -0.03994915464128823,
+          "pitch": -0.0752967540239382,
+          "title": "Guarda il video",
+          "text": "<button onclick='overlayOn2();'>Apri il player</button>"
         }
       ]
     },

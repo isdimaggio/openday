@@ -10,7 +10,7 @@ function overlayOff1(){
 }
 
 function overlayOff2(){
-    $("#overlay1").css("display", "none");
+    $("#overlay2").css("display", "none");
     $("#videojs-2")[0].player.pause();
 }
 
