@@ -4,14 +4,23 @@ Data:         19-12-2020
 Descrizione:  Overlay manager (versione tour)
 */
 
-function overlayOn(ytid){
-    document.getElementById("overlayIframe").src = "https://www.youtube-nocookie.com/embed/" + ytid;
-    document.getElementById("overlayMain").style.display = "block";
+function overlayOff1(){
+    $("#overlay1").css("display", "none");
+    $("#videojs")[0].player.pause();
 }
 
-function overlayOff(){
-    document.getElementById("overlayMain").style.display = "none";
-    document.getElementById("overlayIframe").src = "";
+function overlayOff2(){
+    $("#overlay1").css("display", "none");
+    $("#videojs-2")[0].player.pause();
 }
 
-overlayOff();
+function overlayOn1(){
+    $("#overlay1").css("display", "block");
+}
+
+function overlayOn2(){
+    $("#overlay2").css("display", "block");
+}
+
+$("#overlay1").css("display", "none");
+$("#overlay2").css("display", "none");

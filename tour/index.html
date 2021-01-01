@@ -1,173 +1,208 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>IT &#39;Luigi Di Maggio&#39; - Tour Virtuale</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
-<style> @-ms-viewport { width: device-width; } </style>
-<link rel="stylesheet" href="vendor/reset.min.css">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="overlay.css">
-<link href="../assets/css/video-js.css" rel="stylesheet">
+  <title>IT &#39;Luigi Di Maggio&#39; - Tour Virtuale</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+  <style>
+    @-ms-viewport {
+      width: device-width;
+    }
+  </style>
+  <link rel="stylesheet" href="vendor/reset.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="overlay.css">
+  <link href="../assets/css/video-js.css" rel="stylesheet">
 </head>
+
 <body class="multiple-scenes view-control-buttons">
 
-<div id="pano"></div>
+  <div id="pano"></div>
 
-<div id="sceneList">
-  <ul class="scenes">
+  <div id="sceneList">
+    <ul class="scenes">
 
-    <a href="../" class="sceneInst">
-      <li class="text">&#8592; Torna alla Home</li>
-    </a>
+      <a href="../" class="sceneInst">
+        <li class="text">&#8592; Torna alla Home</li>
+      </a>
 
-    <a class="sceneInst">
-      <li class="text">Ambienti Didattici</li>
-    </a>
-    
+      <a class="sceneInst">
+        <li class="text">Ambienti Didattici</li>
+      </a>
+
       <a href="javascript:void(0)" class="scene" data-id="0-esterno">
         <li class="text">Esterno</li>
       </a>
-    
+
       <a href="javascript:void(0)" class="scene" data-id="1-hall">
         <li class="text">Hall</li>
       </a>
-    
+
       <a href="javascript:void(0)" class="scene" data-id="2-aula-magna">
         <li class="text">Aula Magna</li>
       </a>
-    
+
       <a href="javascript:void(0)" class="scene" data-id="3-biblioteca">
         <li class="text">Biblioteca</li>
       </a>
-    
+
       <a href="javascript:void(0)" class="scene" data-id="4-aula">
         <li class="text">Aula</li>
       </a>
-    
+
       <a href="javascript:void(0)" class="scene" data-id="5-lab-informatica">
         <li class="text">Lab. Informatica</li>
       </a>
-    
+
       <a href="javascript:void(0)" class="scene" data-id="6-lab-sistemi-e-reti">
         <li class="text">Lab. Sistemi e Reti</li>
       </a>
-    
+
       <a href="javascript:void(0)" class="scene" data-id="7-lab-chimica-organica">
         <li class="text">Lab. Chimica Organica</li>
       </a>
-    
+
       <a href="javascript:void(0)" class="scene" data-id="8-lab-chimica-analitica">
         <li class="text">Lab. Chimica Analitica</li>
       </a>
-    
+
       <a href="javascript:void(0)" class="scene" data-id="9-lab-biologia-e-microbiologia">
         <li class="text">Lab. Biologia e Microbiologia</li>
       </a>
-    
+
       <a href="javascript:void(0)" class="scene" data-id="10-lab-anatomia">
         <li class="text">Lab. Anatomia</li>
       </a>
-    
+
       <a href="javascript:void(0)" class="scene" data-id="11-lab-fisica">
         <li class="text">Lab. Fisica</li>
       </a>
-    
+
       <a href="javascript:void(0)" class="scene" data-id="12-lab-elettrotecnica-1">
         <li class="text">Lab. Elettronica ed Elettrotecnica</li>
       </a>
-    
+
       <a href="javascript:void(0)" class="scene" data-id="13-lab-elettrotecnica-2">
         <li class="text">Lab. Sistemi Automatici T.P.S.E.</li>
       </a>
-    
+
       <a href="javascript:void(0)" class="scene" data-id="14-lab-disegno-cad">
         <li class="text">Lab. T.T.R.G.</li>
       </a>
-    
+
       <a href="javascript:void(0)" class="scene" data-id="15-lab-lingue">
         <li class="text">Lab. Lingue e Tec. Inf.</li>
       </a>
-    
+
       <a href="javascript:void(0)" class="scene" data-id="16-palestra-grande">
         <li class="text">Palestra Grande</li>
       </a>
-    
+
       <a href="javascript:void(0)" class="scene" data-id="17-palestra-piccola">
         <li class="text">Palestra Piccola</li>
       </a>
-    
+
       <a href="javascript:void(0)" class="scene" data-id="18-ite---lab-informatica">
         <li class="text">ITE - Lab. Informatica</li>
       </a>
-    
+
       <a href="javascript:void(0)" class="scene" data-id="19-ite---lab-economia-aziendale">
         <li class="text">ITE - Lab. Economia Aziendale</li>
       </a>
-    
-  </ul>
-</div>
 
-<div id="titleBar">
-  <h1 class="sceneName"></h1>
-</div>
-
-<a href="javascript:void(0)" id="autorotateToggle">
-  <img class="icon off" src="img/play.png">
-  <img class="icon on" src="img/pause.png">
-</a>
-
-<a href="javascript:void(0)" id="fullscreenToggle">
-  <img class="icon off" src="img/fullscreen.png">
-  <img class="icon on" src="img/windowed.png">
-</a>
-
-<a href="javascript:void(0)" id="sceneListToggle">
-  <img class="icon off" src="img/expand.png">
-  <img class="icon on" src="img/collapse.png">
-</a>
-
-<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
-  <img class="icon" src="img/up.png">
-</a>
-<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
-  <img class="icon" src="img/down.png">
-</a>
-<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
-  <img class="icon" src="img/left.png">
-</a>
-<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
-  <img class="icon" src="img/right.png">
-</a>
-<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
-  <img class="icon" src="img/plus.png">
-</a>
-<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
-  <img class="icon" src="img/minus.png">
-</a>
-
-<div class="overlay-vid" id="overlayMain">
-  <div class="wrapper">
-      <iframe class="video" id="overlayIframe" src="" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-      <div class="close" onclick="overlayOff()"><p>Chiudi</p></div>
+    </ul>
   </div>
-</div>
 
-<script src="vendor/es5-shim.js"></script>
-<script src="vendor/eventShim.js"></script>
-<script src="vendor/classList.js"></script>
-<script src="vendor/requestAnimationFrame.js" ></script>
-<script src="vendor/screenfull.min.js" ></script>
-<script src="vendor/bowser.min.js" ></script>
-<script src="vendor/marzipano.js" ></script>
-<script src="overlaymanager.js"></script>
-<script src="../assets/js/jquery-3.5.1.min.js"></script>
-<script src="../assets/js/video.min.js"></script>
-<script src="data.js"></script>
-<script src="index.js"></script>
+  <div id="titleBar">
+    <h1 class="sceneName"></h1>
+  </div>
+
+  <a href="javascript:void(0)" id="autorotateToggle">
+    <img class="icon off" src="img/play.png">
+    <img class="icon on" src="img/pause.png">
+  </a>
+
+  <a href="javascript:void(0)" id="fullscreenToggle">
+    <img class="icon off" src="img/fullscreen.png">
+    <img class="icon on" src="img/windowed.png">
+  </a>
+
+  <a href="javascript:void(0)" id="sceneListToggle">
+    <img class="icon off" src="img/expand.png">
+    <img class="icon on" src="img/collapse.png">
+  </a>
+
+  <a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+    <img class="icon" src="img/up.png">
+  </a>
+  <a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+    <img class="icon" src="img/down.png">
+  </a>
+  <a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+    <img class="icon" src="img/left.png">
+  </a>
+  <a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+    <img class="icon" src="img/right.png">
+  </a>
+  <a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+    <img class="icon" src="img/plus.png">
+  </a>
+  <a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+    <img class="icon" src="img/minus.png">
+  </a>
+
+  <div class="overlay-vid" id="overlay1">
+    <div class="wrapper">
+      <video id="videojs" class="video-js vjs-default-skin vjs-16-9" controls
+        poster="../assets/vid/informatica/POSTER.jpg" data-setup='{"fluid": true}'>
+        <source src="../assets/vid/informatica/DELIVERY.mp4" type="video/mp4" />
+        <source src="../assets/vid/informatica/DELIVERY.webm" type="video/webm" />
+        <p class="vjs-no-js">
+          To view this video please enable JavaScript, and consider upgrading to a
+          web browser that
+          <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
+      </video>
+      <div class="close" onclick="overlayOff1()">
+        <p>Chiudi</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay-vid" id="overlay2">
+    <div class="wrapper">
+      <video id="videojs-2" class="video-js vjs-default-skin vjs-16-9" controls
+        poster="../assets/vid/biotecnologie/POSTER.png" data-setup='{"fluid": true}'>
+        <source src="../assets/vid/biotecnologie/DELIVERY.mp4" type="video/mp4" />
+        <source src="../assets/vid/biotecnologie/DELIVERY.webm" type="video/webm" />
+        <p class="vjs-no-js">
+          To view this video please enable JavaScript, and consider upgrading to a
+          web browser that
+          <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
+      </video>
+      <div class="close" onclick="overlayOff2()">
+        <p>Chiudi</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="vendor/es5-shim.js"></script>
+  <script src="vendor/eventShim.js"></script>
+  <script src="vendor/classList.js"></script>
+  <script src="vendor/requestAnimationFrame.js"></script>
+  <script src="vendor/screenfull.min.js"></script>
+  <script src="vendor/bowser.min.js"></script>
+  <script src="vendor/marzipano.js"></script>
+  <script src="../assets/js/jquery-3.5.1.min.js"></script>
+  <script src="overlaymanager.js"></script>
+  <script src="../assets/js/video.min.js"></script>
+  <script src="data.js"></script>
+  <script src="index.js"></script>
 
 </body>
+
 </html>
