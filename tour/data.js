@@ -130,7 +130,7 @@ var APP_DATA = {
           "yaw": -0.0024036270184844,
           "pitch": -0.03394990335053549,
           "title": "Aula Magna",
-          "text": "L’Aula Magna è un auditorium capace di ospitare circa 200 persone. Dotato di impianti video ed audio, viene utilizzata per gli incontri collegiali scolastici, ma anche per manifestazioni e convegni aperti al pubblico."
+          "text": "L’Aula Magna è un auditorium capace di ospitare circa 200 persone. Dotata di impianti video ed audio, viene utilizzata per gli incontri collegiali scolastici, ma anche per manifestazioni e convegni aperti al pubblico."
         }
       ]
     },
