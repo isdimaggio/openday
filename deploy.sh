@@ -1,7 +1,6 @@
 #!/bin/sh
 rm -rf assets/vid/
-mkdir assets/vid/
-cd assets/vid/
+cd assets/
 wget https://mrbackslash.it/vidassets.zip
 unzip vidassets.zip
 rm -rf vidassets.zip
