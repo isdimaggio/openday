@@ -868,6 +868,12 @@ var APP_DATA = {
           "pitch": -0.05196354160320382,
           "title": "ITE - Laboratorio di Informatica",
           "text": "Il Laboratorio d’Informatica, dotato di LIM e postazioni multimediali collegate in rete tramite fibra, è utilizzato dagli alunni che frequentano l’Istituto Tecnico Economico per svolgere attività didattiche che prevedano l’utilizzo di programmi di video scrittura e di fogli elettronici di calcolo, oltre che per approfondire la conoscenza dei sistemi informativi aziendali e acquisire le basi della programmazione software."
+        },
+        {
+          "yaw": -0.4484005124233153,
+          "pitch": -0.05196354160320382,
+          "title": "Guarda il video",
+          "text": "<button onclick='overlayOn3();'>Apri il player</button>"
         }
       ]
     },
