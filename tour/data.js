@@ -47,7 +47,7 @@ var APP_DATA = {
     },
     {
       "id": "0-hub-locali",
-      "name": "Hub Locali",
+      "name": "Ambienti Didattici",
       "levels": [
         {
           "tileSize": 256,
