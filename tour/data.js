@@ -46,6 +46,152 @@ var APP_DATA = {
       ]
     },
     {
+      "id": "0-hub-locali",
+      "name": "Hub Locali",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 0.019789328934372463,
+        "pitch": 0.030221655044124773,
+        "fov": 0.6995015613299324
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.1540435296067848,
+          "pitch": 0.22300288200729135,
+          "rotation": 0,
+          "target": "1-hall"
+        },
+        {
+          "yaw": 0.1271239749938502,
+          "pitch": -0.09376012682363921,
+          "rotation": 0,
+          "target": "2-aula-magna"
+        },
+        {
+          "yaw": 0.47890891947918846,
+          "pitch": -0.09491663348568657,
+          "rotation": 0,
+          "target": "4-aula"
+        },
+        {
+          "yaw": 0.8273855396295406,
+          "pitch": -0.09380123687932063,
+          "rotation": 0,
+          "target": "5-lab-informatica"
+        },
+        {
+          "yaw": 1.1756272263466983,
+          "pitch": -0.09376174833182382,
+          "rotation": 0,
+          "target": "6-lab-sistemi-e-reti"
+        },
+        {
+          "yaw": 1.5249177203852744,
+          "pitch": -0.09445699312709976,
+          "rotation": 0,
+          "target": "12-lab-elettrotecnica-1"
+        },
+        {
+          "yaw": 1.8761437495727584,
+          "pitch": -0.09667613403485475,
+          "rotation": 0,
+          "target": "13-lab-elettrotecnica-2"
+        },
+        {
+          "yaw": 2.222433356226869,
+          "pitch": -0.0934732531115614,
+          "rotation": 0,
+          "target": "14-lab-disegno-cad"
+        },
+        {
+          "yaw": 2.572448881047549,
+          "pitch": -0.09462848888456854,
+          "rotation": 0,
+          "target": "18-ite---lab-informatica"
+        },
+        {
+          "yaw": 2.9216219788417153,
+          "pitch": -0.09544205160430508,
+          "rotation": 0,
+          "target": "19-ite---lab-economia-aziendale"
+        },
+        {
+          "yaw": -3.011711120261362,
+          "pitch": -0.0940641721441029,
+          "rotation": 0,
+          "target": "15-lab-lingue"
+        },
+        {
+          "yaw": -2.6604234015182406,
+          "pitch": -0.09581127665418165,
+          "rotation": 0,
+          "target": "16-palestra-grande"
+        },
+        {
+          "yaw": -2.315615118256595,
+          "pitch": -0.09402701022995075,
+          "rotation": 0,
+          "target": "17-palestra-piccola"
+        },
+        {
+          "yaw": -1.9639618474689104,
+          "pitch": -0.09768414307402296,
+          "rotation": 0,
+          "target": "11-lab-fisica"
+        },
+        {
+          "yaw": -1.6178084324502287,
+          "pitch": -0.09284143416105017,
+          "rotation": 0,
+          "target": "10-lab-anatomia"
+        },
+        {
+          "yaw": -1.2657752140192624,
+          "pitch": -0.09584565705177006,
+          "rotation": 0,
+          "target": "9-lab-biologia-e-microbiologia"
+        },
+        {
+          "yaw": -0.9183828348876837,
+          "pitch": -0.09327363819735268,
+          "rotation": 0,
+          "target": "8-lab-chimica-analitica"
+        },
+        {
+          "yaw": -0.5677092673112867,
+          "pitch": -0.09550326748931681,
+          "rotation": 0,
+          "target": "7-lab-chimica-organica"
+        },
+        {
+          "yaw": -0.22031550802297772,
+          "pitch": -0.09509357624780179,
+          "rotation": 0,
+          "target": "3-biblioteca"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
       "id": "1-hall",
       "name": "Hall",
       "levels": [
@@ -73,7 +219,14 @@ var APP_DATA = {
         "pitch": 0.11199571306330292,
         "fov": 1.3848081938437478
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 0.4955756735866377,
+          "pitch": 0.09250262172258417,
+          "rotation": 0,
+          "target": "0-hub-locali"
+        }
+      ],
       "infoHotspots": [
         {
           "yaw": 2.547889259442984,
@@ -122,7 +275,7 @@ var APP_DATA = {
           "yaw": -0.5277932507404763,
           "pitch": 0.10204605066470762,
           "rotation": 0,
-          "target": "1-hall"
+          "target": "0-hub-locali"
         }
       ],
       "infoHotspots": [
@@ -167,7 +320,7 @@ var APP_DATA = {
           "yaw": -0.07535668813984664,
           "pitch": -0.011070927649498685,
           "rotation": 0,
-          "target": "1-hall"
+          "target": "0-hub-locali"
         }
       ],
       "infoHotspots": [
@@ -212,7 +365,7 @@ var APP_DATA = {
           "yaw": -1.890285717902536,
           "pitch": -0.06807878553179947,
           "rotation": 0,
-          "target": "1-hall"
+          "target": "0-hub-locali"
         }
       ],
       "infoHotspots": [
@@ -257,7 +410,7 @@ var APP_DATA = {
           "yaw": -1.5666195004604546,
           "pitch": 0.015143328921139343,
           "rotation": 0,
-          "target": "1-hall"
+          "target": "0-hub-locali"
         }
       ],
       "infoHotspots": [
@@ -308,7 +461,7 @@ var APP_DATA = {
           "yaw": 0.6244046713653049,
           "pitch": -0.025223042864441325,
           "rotation": 0,
-          "target": "1-hall"
+          "target": "0-hub-locali"
         }
       ],
       "infoHotspots": [
@@ -353,7 +506,7 @@ var APP_DATA = {
           "yaw": -0.13245465918245358,
           "pitch": 0.008804279917763225,
           "rotation": 0,
-          "target": "1-hall"
+          "target": "0-hub-locali"
         }
       ],
       "infoHotspots": [
@@ -398,7 +551,7 @@ var APP_DATA = {
           "yaw": -0.9853802468188526,
           "pitch": -0.02541523262549994,
           "rotation": 0,
-          "target": "1-hall"
+          "target": "0-hub-locali"
         }
       ],
       "infoHotspots": [
@@ -443,7 +596,7 @@ var APP_DATA = {
           "yaw": -0.5417254562601883,
           "pitch": 0.0019026487656663704,
           "rotation": 0,
-          "target": "1-hall"
+          "target": "0-hub-locali"
         }
       ],
       "infoHotspots": [
@@ -494,7 +647,7 @@ var APP_DATA = {
           "yaw": -0.6275455032960338,
           "pitch": -0.054628673744947065,
           "rotation": 0,
-          "target": "1-hall"
+          "target": "0-hub-locali"
         }
       ],
       "infoHotspots": [
@@ -539,7 +692,7 @@ var APP_DATA = {
           "yaw": 0.4267543567509655,
           "pitch": 0.0020996828478416774,
           "rotation": 0,
-          "target": "1-hall"
+          "target": "0-hub-locali"
         }
       ],
       "infoHotspots": [
@@ -584,7 +737,7 @@ var APP_DATA = {
           "yaw": -1.9914206910057999,
           "pitch": -0.015598065026939167,
           "rotation": 0,
-          "target": "1-hall"
+          "target": "0-hub-locali"
         },
         {
           "yaw": -2.922518509310123,
@@ -635,7 +788,7 @@ var APP_DATA = {
           "yaw": 0.2927856699729574,
           "pitch": 0.00486394960872083,
           "rotation": 0,
-          "target": "1-hall"
+          "target": "0-hub-locali"
         },
         {
           "yaw": 1.5382342799894673,
@@ -686,7 +839,7 @@ var APP_DATA = {
           "yaw": 0.5151844122443627,
           "pitch": -0.015765635381796983,
           "rotation": 0,
-          "target": "1-hall"
+          "target": "0-hub-locali"
         }
       ],
       "infoHotspots": [
@@ -731,7 +884,7 @@ var APP_DATA = {
           "yaw": -0.515232000203028,
           "pitch": -0.015457155187725391,
           "rotation": 0,
-          "target": "1-hall"
+          "target": "0-hub-locali"
         }
       ],
       "infoHotspots": [
@@ -776,7 +929,7 @@ var APP_DATA = {
           "yaw": -0.9774219529009329,
           "pitch": 0.0204672541117894,
           "rotation": 0,
-          "target": "1-hall"
+          "target": "0-hub-locali"
         }
       ],
       "infoHotspots": [
@@ -821,7 +974,7 @@ var APP_DATA = {
           "yaw": -3.027754978751574,
           "pitch": 0.04103022319341143,
           "rotation": 0,
-          "target": "1-hall"
+          "target": "0-hub-locali"
         }
       ],
       "infoHotspots": [
@@ -861,7 +1014,14 @@ var APP_DATA = {
         "pitch": 0.03336887214080875,
         "fov": 1.3848081938437478
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 2.901855565646839,
+          "pitch": 0.0686074277522497,
+          "rotation": 0,
+          "target": "0-hub-locali"
+        }
+      ],
       "infoHotspots": [
         {
           "yaw": -0.5484005124233153,
@@ -905,7 +1065,14 @@ var APP_DATA = {
         "pitch": 0.016684436070404374,
         "fov": 1.3848081938437478
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -2.442374054402329,
+          "pitch": -0.03661864549760452,
+          "rotation": 0,
+          "target": "0-hub-locali"
+        }
+      ],
       "infoHotspots": [
         {
           "yaw": 0.25573111155751604,
