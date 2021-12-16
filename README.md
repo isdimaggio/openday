@@ -1,17 +1,17 @@
-# Open Day 2021-2022 IT 'Luigi Di Maggio'
+# Open Day 2022-2023 IT 'Luigi Di Maggio'
 ### Sito statico per l'orientamento ed open day dell'istituto IT Luigi Di Maggio di San Giovanni Rotondo
 
 **Sito realizzato da:**
-- Vittorio Lo Mele (Classe 2Ci)
-- Alessio Cusenza (Classe 4Bi)
+- Vittorio Lo Mele (Classe 3Ci)
+- Alessio Cusenza (Classe 5Bi)
 
 **Hanno contribuito con i seguenti compiti:**
-1. Vittorio Lo Mele (2Ci)
+1. Vittorio Lo Mele (3Ci)
     - Stesura HTML e CSS
     - Programmazione JavaScript
     - Fotografie
     - Altri aspetti tecnici
-2. Alessio Cusenza (4Bi)
+2. Alessio Cusenza (5Bi)
     - Idea sito
     - Struttura
     - Testi
